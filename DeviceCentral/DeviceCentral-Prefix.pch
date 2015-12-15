@@ -1,0 +1,44 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+// System classes
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import <AVFoundation/AVFoundation.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+// Categories
+#import "UIColor+RGB.h"
+#import "NSString+MD5.h"
+#import "UIView+Shadow.h"
+#import "NSString+BoldWords.h"
+#import "UIImage+Resize.h"
+
+// App classes
+#import "AppDelegate.h"
+#import "User.h"
+#import "Device.h"
+#import "History.h"
+#import "UsersModel.h"
+#import "DevicesModel.h"
+#import "HistoryModel.h"
+#import "BaseViewController.h"
+
+// Classes
+#import "Admin.h"
+
+// Constants
+#define kUIColorBrand   [UIColor colorWithR:187.0f G:215.0f B:80.0f A:1.0f]
+
+// Macro
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AD355DE8-3C6B-4489-9BB5-10DD4725A471</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DeviceCentral</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D41DD6B3-91DF-44A7-8428-CB86C87D55B1</key>
+		<string>ssh://slsapp.com:1234/etr/device-central.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DeviceCentral.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D41DD6B3-91DF-44A7-8428-CB86C87D55B1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://slsapp.com:1234/etr/device-central.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D41DD6B3-91DF-44A7-8428-CB86C87D55B1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D41DD6B3-91DF-44A7-8428-CB86C87D55B1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DeviceCentral</string>
+		</dict>
+	</array>
+</dict>
+</plist>
